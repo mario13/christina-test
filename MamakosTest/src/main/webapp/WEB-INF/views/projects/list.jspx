@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_leiv_domain_Project" items="${projects}" z="rTTu2EEW+R+w6q51Xw0f1Uyfe4w=">
+        <table:table data="${projects}" id="l_org_leiv_domain_Project" path="/projects" z="RFh686h5sPD9DTQqrTRURJMZrM0=">
+            <table:column id="c_org_leiv_domain_Project_name" property="name" z="YjLiIMcFQ81nzhPQQqsPYb34KLw="/>
+            <table:column id="c_org_leiv_domain_Project_description" property="description" z="3q21PFU5rmku+tjKLcHQHT9/uBo="/>
+            <table:column id="c_org_leiv_domain_Project_text" property="text" z="bDEJwokNl2R9F/tthWAZM1I8m4Q="/>
+            <table:column id="c_org_leiv_domain_Project_thumbnail" property="thumbnail" z="hgHwrI7PC6kUVt3kkY+fh1gkejk="/>
+            <table:column id="c_org_leiv_domain_Project_year" property="year" z="2P48d3n+NlPXntPEKiOp3jFgqWo="/>
+            <table:column id="c_org_leiv_domain_Project_gallerytemplate" property="gallerytemplate" z="qy5DTRHRtTMB31N0Hnc1jhT5Kk4="/>
+        </table:table>
+    </page:list>
+</div>

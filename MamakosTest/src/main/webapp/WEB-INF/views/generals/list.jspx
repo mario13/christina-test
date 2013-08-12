@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_leiv_domain_General" items="${generals}" z="rQ1Lq5YWv7Aw9v8lygEijB4KiFI=">
+        <table:table data="${generals}" id="l_org_leiv_domain_General" path="/generals" z="lZAI4n1EwQ61j30ZjxQ9dwKbc0E="/>
+    </page:list>
+</div>

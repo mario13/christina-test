@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_leiv_domain_Project" object="${project}" path="/projects" z="ahnfitHyoIdPVrGO26tonWeilhY=">
+        <field:display field="name" id="s_org_leiv_domain_Project_name" object="${project}" z="oPya+6mHOWymIQK2RCra7M1oggc="/>
+        <field:display field="description" id="s_org_leiv_domain_Project_description" object="${project}" z="rfC0RV5dFcR28Q9rJB/lPieI/co="/>
+        <field:display field="text" id="s_org_leiv_domain_Project_text" object="${project}" z="jYV3+n0jJtcWK62IxZmwaual34M="/>
+        <field:display field="thumbnail" id="s_org_leiv_domain_Project_thumbnail" object="${project}" z="1sAdcJYXp6weDB/T0RMk3B0LA+A="/>
+        <field:display field="year" id="s_org_leiv_domain_Project_year" object="${project}" z="MQ8XvUb+IbqDiMc2O6lREqtqFjQ="/>
+        <field:display field="gallerytemplate" id="s_org_leiv_domain_Project_gallerytemplate" object="${project}" z="SKgZnZNpZhGgdLztB95Tq1ySwf8="/>
+    </page:show>
+</div>

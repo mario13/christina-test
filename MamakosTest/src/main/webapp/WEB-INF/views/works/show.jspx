@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_leiv_domain_Work" object="${work}" path="/works" z="Tva8n25VfSsr+jvKfFFuyWpEPQQ=">
+        <field:display field="projectId" id="s_org_leiv_domain_Work_projectId" object="${work}" z="R+xn4C1L3UGhf4Ey56mZj+clQas="/>
+        <field:display field="link" id="s_org_leiv_domain_Work_link" object="${work}" z="G3/igbpet5JnS/VAeWsYtramMqI="/>
+        <field:display field="thumbnail" id="s_org_leiv_domain_Work_thumbnail" object="${work}" z="+zrUX9XqREUk1JRESj5yn/WCt7M="/>
+        <field:display field="description" id="s_org_leiv_domain_Work_description" object="${work}" z="VmlIayJLfBxPQi2/8REs/ZN/Ufg="/>
+        <field:display field="title" id="s_org_leiv_domain_Work_title" object="${work}" z="Z0gdKZj/X+UO/mEw5nlm1qWcvVE="/>
+        <field:display field="type" id="s_org_leiv_domain_Work_type" object="${work}" z="y5x/2ZYybcA9f3znZmIRoLTxzt0="/>
+        <field:display field="highres" id="s_org_leiv_domain_Work_highres" object="${work}" z="CPjM6mc3SKX5nxNhT3dX7dZVj7o="/>
+        <field:display field="sortOrder" id="s_org_leiv_domain_Work_sortOrder" object="${work}" z="gM1odbVhEVLX+w5VZikM8avUMaY="/>
+    </page:show>
+</div>
