@@ -37,7 +37,7 @@
 						</c:if>
 						<div class="project">
 							<p>${project.name}</p>
-							<a href="project.jsp"> <img alt="${project.name}"
+							<a href="projects/${project.id}/installations"> <img alt="${project.name}"
 								src="images/projects/girls/work/MAMAKOS.C_5.jpg" />
 							</a>
 						</div>
